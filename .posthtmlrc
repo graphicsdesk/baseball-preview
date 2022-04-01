@@ -7,12 +7,213 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "Since it is still early in the NCAA baseball season, a team’s win-loss record might not show the full picture for its prospects down the stretch. A lucky hit here, a bad call there, and a team might lose a game that they otherwise dominated."
+          },
+          {
+            "type": "text",
+            "value": "The eight squads in the Ivy League opened the season facing tough nonconference competition, resulting in a host of odd numbers that may not be indicative of Ancient Eight play moving forward."
+          },
+          {
+            "type": "text",
+            "value": "Of course, those oddities are part of what makes baseball so compelling, but it still can help to use a more discerning eye to project how a given team will do over the rest of the season. This is the project of sabermetrics, which interprets team and individual outcomes in baseball through a statistical lens."
+          },
+          {
+            "type": "text",
+            "value": "One analytical method is to calculate the Pythagorean winning percentage, which estimates how many games a team should have won using the number of runs they scored versus runs they allowed. The formula is the square of runs scored divided by the sum of the square of runs scored and the square of runs allowed."
+          },
+          {
+            "type": "text",
+            "value": "For example, Columbia (7-12, 1-2 Ivy), which has scored 107 runs and allowed 128, is projected to have approximately eight wins in its 19 games played, one game better than its current record."
+          },
+          {
+            "type": "text",
+            "value": "Princeton (2-16, 0-3 Ivy) has been particularly unlucky, dramatically underperforming its expected six wins despite scoring 104 runs and giving up 148. Harvard (11-7, 3-0 Ivy) and Yale (11-6, 3-0 Ivy) have had great fortune, respectively earning 3.3 and 2.5 more wins than projected."
+          },
+          {
+            "type": "text",
+            "value": "However, the projections show that conference-leading Penn (14-7, 2-1 Ivy), which has scored 149 runs to 105 allowed, is a legitimate contender, as its .668 expected win percentage almost exactly matches its actual record."
+          },
+          {
+            "type": "text",
+            "value": "Here is a statistical breakdown of some individual performances that may contribute to these differences."
+          },
+          {
+            "type": "text",
+            "value": "<b>Note: all records and statistics are as of March 29.</b>"
+          },
+          {
+            "type": "text",
+            "value": "<b>BATTING</b>"
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "battingheader.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "<b>Note: 30 plate appearances are needed to qualify for batting statistics.</b>"
+          },
+          {
+            "type": "text",
+            "value": "<b>BABIP and BA</b>"
+          },
+          {
+            "type": "text",
+            "value": "Though batting average is typically used to measure a hitter’s success at the plate, an alternative metric, batting average on balls in play, provides a pared down look by eliminating outcomes unaffected by defensive play: home runs and strikeouts. BABIP can help quantify how lucky a hitter has been relative to their official batting average. For example, a higher BABIP than league average could indicate that a player is enjoying good batted ball luck—their hits avoid fielders’ gloves more often than normal."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "babipfinal.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "Columbia senior outfielder Joshua Solomon is tied for sixth in the league with a BABIP of .467, over .200 points higher than his batting average of .258. All other batters ahead of or tied with him in the BABIP rankings have higher batting averages, which makes his offensive profile an interesting statistical case."
+          },
+          {
+            "type": "text",
+            "value": "Though high BABIP numbers frequently have to do with batted ball luck, Solomon’s high BABIP partially results from his solid power and speed, which is evidenced by his three early home runs and league-leading six stolen bases in six attempts."
+          },
+          {
+            "type": "text",
+            "value": "<b>K%, BB%</b>"
+          },
+          {
+            "type": "text",
+            "value": "Some of the discrepancies between batting average and BABIP can be further explained by two related statistics: strikeout rate, or K%, and walk rate, or BB%. For example, Solomon’s low batting average can be attributed in part to his high K%; he leads all qualified Ivy League hitters in strikeout percentage with a whopping 45.21 percent."
+          },
+          {
+            "type": "text",
+            "value": "In other words, when Solomon does hit a ball in play, he is likely to get on base because of the strength of his bat and his legs—but he often fails to make contact at all."
+          },
+          {
+            "type": "text",
+            "value": "Interestingly enough, many of the Ivy League’s leading home run leaders, such as Princeton outfielder Nadir Lewis and Penn infielder Wyatt Henseler—tied at seven apiece—tend to have average strikeout and walk rates. Throughout this year, the league as a whole has lacked “three true outcome” hitters, or even traditional power hitter archetypes—like sluggers who smash home runs but strike out more than league average."
+          },
+          {
+            "type": "text",
+            "value": "<b>ISO</b>"
+          },
+          {
+            "type": "text",
+            "value": "Another valuable method of evaluating a hitter’s performance is through the measurement of isolated power, or ISO, which only accounts for extra base hits in order to determine how much in-game power a player has. In this sense, Lewis and Henseler are once again among the most valuable hitters, ranking second and fourth in league-wide ISO. While their batting averages of .422 and .438 respectively, already signal that the two are skilled hitters, ISO highlights their contributions to the team by revealing that they not only get hits often, but that those hits often go for extra bases."
+          },
+          {
+            "type": "text",
+            "value": "<b>OPS+</b>"
+          },
+          {
+            "type": "text",
+            "value": "On-base plus slugging combines on-base percentage with slugging percentage in order to provide a general overview that reveals both how often a hitter reaches base as well as how well they can hit for average and power. OPS+ then standardizes OPS by adjusting for external factors such as park size and league factors. An OPS+ of 100 is considered average, and a 115 OPS+, for example, would represent a hitter that is 15 percent better than league average."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "ops-pa.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "It is then no surprise that Lewis and Henseler lead the league with OPS+ values of 265 and 238 respectively, meaning that both are over 100 percent better offensively than the league average. For the Lions, the most valuable hitter appears to be sophomore outfielder Cole Hage, who possesses an OPS+ of 137. In contrast, the other end of the spectrum is bookended by Yale’s A.J. Gaich, who is the only Ivy batter with a negative OPS+ at -4."
+          },
+          {
+            "type": "text",
+            "value": "<b>PITCHING</b>"
+          },
+          {
+            "type": "text",
+            "value": "<b>Note: 10 innings are needed to qualify for pitching statistics.</b>"
+          },
+          {
+            "type": "text",
+            "value": "<b>FIP</b>"
+          },
+          {
+            "type": "text",
+            "value": "Fielding independent pitching provides a clear picture of a pitcher’s individual performance in a vacuum, making it a more useful metric than earned run average, the most common statistic for pitchers. The formula for FIP focuses exclusively on strikeouts, walks, and home runs given up—results that the defense behind the pitcher have no effect on. In that sense, FIP could indicate whether a pitcher is under- or overperforming relative to their true ability, as a FIP lower than ERA could indicate a pitcher has been unlucky due to batted ball luck or their team’s defensive play."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "fip-era.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "One player to look out for is the Lions’ sophomore righty Derek Yoo, who has an unsightly 6.57 ERA but a 4.20 FIP, ranking sixth in the Ivy League among qualified pitchers. In the conference, Yoo has the seventh-largest difference between his ERA and FIP, behind six players who all have FIPs of 5.00 or higher. If the Light Blue defense steps up behind him and his luck with batted balls turns, Yoo has the potential to be one of the better pitchers in the Ancient Eight."
+          },
+          {
+            "type": "text",
+            "value": "The second- and third-best FIPs in the Ivy League belong to Penn’s pitchers Owen Coady and Cole Zaffiro, respectively, who have posted the fifth and 10th best ERAs. Their performances are backed by high strikeout rates, which demonstrate their overpowering repertoires."
+          },
+          {
+            "type": "text",
+            "value": "<b>K/9 and BB/9</b>"
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "k9bavg.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "Coady and Zaffiro have struck out opposing batters at top 10 conference rates, according to their strikeouts per nine."
+          },
+          {
+            "type": "text",
+            "value": "K/9 calculates the number of strikeouts that a pitcher accumulates for every nine innings of work, the length of a typical game. Walks per nine measures the rate of free passes issued, denoting how much traffic a pitcher puts on the bases for himself."
+          },
+          {
+            "type": "text",
+            "value": "Another member of the Quakers’ pitching staff, Danny Heintz, slices up lineups coming out of the bullpen, racking up 13.37 strikeouts per nine. Yet he has posted a 6.10 ERA on the season, largely due to his BB/9 of 8.02, which means that he puts a runner on first for free almost every inning. However, he has held batters down to a .156 batting average, the third lowest in the conference, so if he can improve his command of the strike zone, he could be a dynamic player to watch."
+          },
+          {
+            "type": "text",
+            "value": "One reliever who is already putting up eye-popping numbers is Harvard’s Jay Driver, who has tossed 12 scoreless frames for a league-leading 0.00 ERA. All his peripherals match his on-field performance, as well. His K/9 of 15.00 and .105 batting average allowed both top the Ivy League, and his FIP of 2.20 is the lowest in the conference by almost a full run. The Crimson have and will place full confidence in him to shut down any opponents’ hopes for a ninth inning comeback."
+          },
+          {
+            "type": "text",
+            "value": "Thus far in the season, with only one Ancient Eight series in the books, there is more to teams’ and players’ performances than what the box scores say. Fans of Ivy League baseball should keep an eye out for the players introduced above."
+          },
+          {
+            "type": "text",
+            "value": "But then again, there are plenty of players not mentioned here who still might just turn their seasons around. After all, that is what makes baseball so beautiful."
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Editor Andrew Park can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>. Follow him on Twitter </i><a href=\"https://twitter.com/androo_park\"><i>@androo_park</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy Sports Editor Robert Gao can be contacted at </i><a href=\"mailto:robert.gao@columbiaspectator.com\"><i>robert.gao@columbiaspectator.com</i></a><i>. Follow him on Twitter </i><a href=\"https://twitter.com/robertgao01\"><i>@robertgao01</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff Writer Brian Lee can be contacted at </i><a href=\"mailto:brian.lee@columbiaspectator.com\"><i>brian.lee@columbiaspectator.com</i></a><i>. Follow him on Twitter </i><a href=\"https://twitter.com/BrianSungbinLee\"><i>@BrianSungbinLee</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Want to keep up with breaking news? Subscribe to our </i><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><i>email newsletter </i></a><i>and like Spectator on </i><a href=\"https://www.facebook.com/columbiaspectator\"><i>Facebook</i></a><i>. </i>"
+          }
+        ],
+        "headline": "The numbers behind the numbers: A sabermetric preview of Ivy League baseball",
+        "date": "March 31, 2022",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/andrew-park/\">Andrew Park</a>, <a href=\"https://www.columbiaspectator.com/contributors/robert-gao/\">Robert Gao</a>, and <a href=\"https://www.columbiaspectator.com/contributors/brian-lee/\">Brian Lee</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QZI3PV6JB5DF5HZ6NNPQT7VY74.jpg",
+        "cover_caption": "Photo by Genevieve Depke",
+        "footer": "<b>Methodology</b>\nIndividual player data was pulled from each Ivy League school’s athletics website. Data was sourced on March 29th, meaning statlines from March 30th and beyond were not accounted for in the numbers. Statistics represent all games played by each team (both inter- and intra-conference play). All formulas were pulled from the <a href=\"https://www.baseball-reference.com/bullpen/Main_Page\">Baseball-Reference Bullpen</a>. Check out the data in our <a href=\"https://github.com/graphicsdesk/baseball-preview\">repository.</a>",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1zbimjBa_3JVP4iz1pDBr2ZJQp6FKyeVenPkNIuAH2Z4/edit"
       }
     }
   }
